@@ -1,13 +1,13 @@
 {
-  "name":"maiyoule/aliyun-openapi-php-sdk",
+  "name":"liuyajian/aliyun-openapi-php-sdk",
   "description":"aliyun core library",
   "minimum-stability":"stable",
   "type":"library",
   "license":"MIT",
   "authors":[
     {
-      "name":"shengli",
-      "email":"mothz@126.com"
+      "name":"liuyajian",
+      "email":"1014359760@qq.com"
     }
   ],
   "autoload":{
