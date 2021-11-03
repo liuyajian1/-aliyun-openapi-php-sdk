@@ -1,0 +1,38 @@
+{
+  "name":"maiyoule/aliyun-openapi-php-sdk",
+  "description":"aliyun core library",
+  "minimum-stability":"stable",
+  "type":"library",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"shengli",
+      "email":"mothz@126.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "Aliyun\\Core\\":"src/core",
+      "Aliyun\\Api\\":"src/api"
+    }
+  },
+  "require-dev":{
+    "phpunit/phpunit":"^6.5"
+
+  },
+  "require":{
+
+    "ext-json":"*",
+    "ext-simplexml":"*"
+  },
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://packagist.phpcomposer.com"
+    },
+    {
+      "type":"composer",
+      "url":"https://satis.langic.net"
+    }
+  ]
+}
